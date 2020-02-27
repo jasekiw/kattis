@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class BatterUp {
     public static void main(String[] args) {
-        var input = new Scanner(System.in);
-        var n = input.nextInt();
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
         int sum = 0;
         int count = 0;
         for(int i = 0; i < n; i++) {
